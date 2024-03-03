@@ -54,7 +54,7 @@ io.on("connection", (socket) =>{
 
 //escuchar puerto
 server.listen(3000,"169.254.248.87",()=>{
-    console.log("Servidor funcionando en http://169.254.248.87:3000");
+    console.log("Servidor funcionando en http://192.168.1.65:3000");
 });
 
 //manejar errores app.use((err, req, res, next) => {
